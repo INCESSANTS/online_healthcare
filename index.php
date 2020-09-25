@@ -28,7 +28,7 @@ error_reporting(0);
 <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
 <link rel="shortcut icon" href="assets/images/favicon-icon/favicon.png">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> 
-	<style>
+<style>
 	::-webkit-scrollbar
 {
 	width: 0;
@@ -123,16 +123,66 @@ error_reporting(0);
 </section>
  
 
-
-<!-- Resent Cat-->
+<!-- Resent Meds-->
 <section class="section-padding gray-bg">
   <div class="container">
-    <div class="section-header text-center">
-      <h2>Products:</h2>
-    </div>
-  </div>
-</section>
+		<div class="row">
+			<div class="col">
+				<div class="section-header text-center">
+					<h3>Redicure Products</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+				<div class="col-xl-6">
+						<div class="card transition">
+						<h2 class="transition">Tablet</h2>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+						<div class="cta-container transition"><a href="#" class="cta">Read More</a></div>
+						<div class="card_circle transition"></div>
+						</div>
 
+						<div class="card transition">
+						<h2 class="transition">Capsules</h2>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+						<div class="cta-container transition"><a href="#" class="cta">Read More</a></div>
+						<div class="card_circle transition"></div>
+						</div>
+
+						<div class="card transition">
+						<h2 class="transition">Liquid & Dry Syrup</h2>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+						<div class="cta-container transition"><a href="#" class="cta">Read More</a></div>
+						<div class="card_circle transition"></div>
+						</div>
+				</div>		
+				<div class="col-xl-6">
+						<div class="card transition">
+						<h2 class="transition">External Preparation</h2>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+						<div class="cta-container transition"><a href="#" class="cta">Read More</a></div>
+						<div class="card_circle transition"></div>
+						</div>
+
+						<div class="card transition">
+						<h2 class="transition">Injections</h2>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+						<div class="cta-container transition"><a href="#" class="cta">Read More</a></div>
+						<div class="card_circle transition"></div>
+						</div>
+
+						<div class="card transition">
+						<h2 class="transition">ORS & Powders</h2>
+						<p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+						<div class="cta-container transition"><a href="#" class="cta">Read More</a></div>
+						<div class="card_circle transition"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
 
 <!-- Facts-->
 <section class="fun-facts-section">

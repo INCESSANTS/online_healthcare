@@ -43,15 +43,6 @@ echo "Welcome To Redicure";
       <div class="navbar-header">
         <button id="menu_slide" data-target="#navigation" aria-expanded="false" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       </div>
-      <div class="header_wrap">
-        <div class="header_search">
-          <div id="search_toggle"><i class="fa fa-search" aria-hidden="true"></i></div>
-          <form action="#" method="get" id="header-search-form">
-            <input type="text" placeholder="Search..." class="form-control">
-            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-          </form>
-        </div>
-      </div>
       <div class="collapse navbar-collapse" id="navigation">
         <ul class="nav navbar-nav">
           <li><a href="index.php">Home</a>    </li>
