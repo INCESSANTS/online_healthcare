@@ -933,6 +933,7 @@ table thead th, table thead td {
 /*----------------------------------
 	2.1 Navigation & Dropdown Menu 
 ------------------------------------------*/
+
 #navigation_bar {
   background: #111111 none repeat scroll 0 0;
   border-radius: 0;
@@ -1028,6 +1029,7 @@ nav.navbar {
 	background:#fff;
 	color:#111;
 }
+
 @media (min-width:768px) {
 	
 .navbar-default .navbar-nav > li.dropdown:hover .dropdown-menu {
@@ -1048,10 +1050,9 @@ nav.navbar {
 	visibility: visible;
 	transition: .4s;
 	-webkit-transition: .4s;
-	-moz-transition: .4s;
+  -moz-transition: .4s;
+  z-index: 999;
 }
-
-
 }
 
 
@@ -1092,9 +1093,9 @@ nav.navbar {
   text-transform: uppercase;
 }
 .banner_content p {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 400;
+  color: #ff0a0a;
+  font-size: 29px;
+  font-weight: 800;
   line-height: 29px;
 }
 .car-finder-box {

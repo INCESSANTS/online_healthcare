@@ -1,14 +1,14 @@
 <div id="progressbar"></div>
 <div id="scrollpath"></div>
 <header>
-
-	<link href="../assets/css/dropdown.css" type="text/css" rel="stylesheet">
  
   <div class="default-header">
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-md-2">
-          <div > <a href="index.php" style="font-size:24px; font-weight:700;">Redicure Life</a> </div>
+        <div><img src="assets/images/cat-profile.png" style="width:100px;hieght:100px;display:inline-block"></div>  
+        <div > <a href="index.php" style="font-size:24px; font-weight:700;">Redicure Life</a> </div>
+        
         </div>
         <div class="col-sm-9 col-md-10">
           <div class="header_info">
@@ -38,7 +38,7 @@ echo "Welcome To Redicure";
   </div>
   
   <!-- Navigation -->
-  <nav id="navigation_bar" class="navbar navbar-default">
+ <nav id="navigation_bar" class="navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
         <button id="menu_slide" data-target="#navigation" aria-expanded="false" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -84,7 +84,8 @@ echo "Welcome To Redicure";
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> 
+
   <!-- Navigation end --> 
-  
+ 
 </header>
