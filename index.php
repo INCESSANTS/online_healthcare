@@ -130,6 +130,7 @@ error_reporting(0);
 			<div class="col">
 				<div class="section-header text-center">
 					<h3>Redicure Products</h3>
+						<div class="divider"></div>
 				</div>
 			</div>
 		</div>
@@ -183,7 +184,6 @@ error_reporting(0);
 	</div>
 
 </section>
-
 <!-- Facts-->
 <section class="fun-facts-section">
   <div class="container div_zindex">
@@ -199,7 +199,7 @@ error_reporting(0);
       <div class="col-lg-3 col-xs-6 col-sm-3">
         <div class="fun-facts-m">
           <div class="cell">
-            <h2><i class="fa fa-vial" aria-hidden="true"></i>1200+</h2>
+            <h2><i class="fa fa-medkit" aria-hidden="true"></i>1200+</h2>
             <p>Products</p>
           </div>
         </div>
@@ -222,20 +222,15 @@ error_reporting(0);
       </div>
     </div>
   </div>
-  <!-- Dark Overlay-->
-  <div class="dark-overlay"></div>
 </section>
 
-
-<!--Testimonial -->
-<section class="section-padding testimonial-section parallex-bg">
+<!--About Breif section -->
+<section class="section-padding testimonial-section">
   <div class="container div_zindex">
     <div class="section-header white-text text-center">
-      <h2>Reviews</h2>
+      <h2>About us </h2>
     </div>
   </div>
-  <!-- Dark Overlay-->
-  <div class="dark-overlay"></div>
 </section>
 
 
