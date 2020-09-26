@@ -29,7 +29,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 }
 }
 ?>
-
+<!--
 <footer>
   <div class="footer-top">
     <div class="container">
@@ -86,4 +86,69 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
       </div>
     </div>
   </div>
+  
 </footer>
+-->
+
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h3>Quick Links</h3>
+          <ul class="list-unstyled">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Certificate</a></li>
+            <li><a href="#">Inquiry</a></li>
+            <li><a href="#">Quality Control</a></li>
+            <li><a href="#">Manufacturing Facility</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h3>Contact Us</h3>
+          <ul class="list-unstyled">
+            <li><a href="#">Contact Person:</a>
+            </li>
+            <li><a href="#">Office Address:</a></li>
+            <li><a href="#">Phone:</a></li>
+            <li><a href="#">Email:</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h3>News Letter</h3>
+          <form class="form-inline" method="post">
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                <div><br></div>
+                <div class="form-group" style="position:relative;left:30px;"><button class="btn btn-primary" type="submit">Subscribe </button></div>
+            </form>
+        </div>
+      </div>
+    	<div class="col-md-3 footer-social-pad">
+    		<h3>Follow Us</h3>
+            <ul class="social-network social-circle">
+             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+             <li><a href="#" class="icoGoogle"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+             <li><a href="#" class="icoInsta"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>				
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-12 copy">
+			<p class="text-center">&copy; Copyright 2020 - Redicure Life. &nbsp; All rights reserved.&nbsp; Powered By Team Incessant</p>
+		</div>
+	</div>
+
+
+  </div>
+  </div>
+</footer>
+  

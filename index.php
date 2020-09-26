@@ -130,7 +130,6 @@ error_reporting(0);
 			<div class="col">
 				<div class="section-header text-center">
 					<h3>Redicure Products</h3>
-						<div class="divider"></div>
 				</div>
 			</div>
 		</div>
@@ -240,7 +239,7 @@ error_reporting(0);
 
 
 
-<div id="back-top" class="back-top"> <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i> </a> </div>
+
 
 
 <!--Login-Form -->
@@ -266,6 +265,7 @@ error_reporting(0);
 	}
 	
 	</script>
+
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
