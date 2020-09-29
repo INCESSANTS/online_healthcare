@@ -2,9 +2,7 @@
 session_start();
 include('includes/config.php');
 error_reporting(0);
-
 ?>
-
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -27,84 +25,10 @@ error_reporting(0);
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/favicon-icon/apple-touch-icon-72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
 <link rel="shortcut icon" href="assets/images/favicon-icon/favicon.png">
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> 
-<style>
-	::-webkit-scrollbar
-{
-	width: 0;
-}
-		
-		#scrollpath {
-			position: fixed;
-			top: 0;
-			right: 0;
-			width: 10px;
-			background: rgba(255,255,255,0.05);
-		}
-		#progressbar {
-			position: fixed;
-			top: 0;
-			right: 0;
-			width: 10px;
-			background: linear-gradient(to top, #008aff , #00ffe7);
-			animation: animate 5s linear infinite;
-			z-index: 2;
-		}
-		
-		@keyframes animate 
-		{
-			0%,100%
-			{
-				filter: hue-rotate(0deg);
-			}
-			50%
-			{
-				filter: hue-rotate(360deg);
-			}
-		}
-		
-		#progressbar:before
-		{	
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background: linear-gradient(to top, #008aff , #00ffe7);
-			filter: blur(10px);
-			
-			
-		}
-		
-		#progressbar:after
-		{	
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background: linear-gradient(to top, #008aff , #00ffe7);
-			filter: blur(30px);
-			
-			
-		}
-		.container
-		{
-			padding-right: 0px;
-			padding-left: 0px;
-		}
-		
-	</style>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 <body>
-<div id="progressbar"></div>
-	<div id="scrollpath"></div>
-	
-        
 <!--Header-->
 <?php include('includes/header.php');?>
-
 
 <!-- Banners -->
 <section id="banner" class="banner-section">
@@ -122,7 +46,6 @@ error_reporting(0);
   </div>
 </section>
  
-
 <!-- Resent Meds-->
 <section class="section-padding gray-bg">
   <div class="container">
@@ -183,6 +106,7 @@ error_reporting(0);
 	</div>
 
 </section>
+
 <!-- Facts-->
 <section class="fun-facts-section">
   <div class="container div_zindex">
@@ -232,40 +156,27 @@ error_reporting(0);
   </div>
 </section>
 
-
-
 <!--Footer -->
 <?php include('includes/footer.php');?>
-
-
-
-
-
 
 <!--Login-Form -->
 <?php include('includes/login.php');?>
 
-
 <!--Register-Form -->
 <?php include('includes/registration.php');?>
 
- 
-
 <!--Forgot-password-Form -->
 <?php include('includes/forgotpassword.php');?>
-
 
 <!-- Scripts --> 
 <script type="text/javascript">
 	let progress = document.getElementById('progressbar');
 	let totalHeight = document.body.scrollHeight - window.innerHeight;
-	window.onscroll = function(){
-		let progressHeight = (window.pageYOffset / totalHeight ) * 100 ;
-		progress.style.height = progressHeight + "%";
-	}
-	
-	</script>
-
+		window.onscroll = function(){
+			let progressHeight = (window.pageYOffset / totalHeight ) * 100 ;
+			progress.style.height = progressHeight + "%";
+		}
+</script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>

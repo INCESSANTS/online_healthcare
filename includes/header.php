@@ -6,7 +6,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-md-2">
-        <div><img src="assets/images/cat-profile.png" style="width:100px;hieght:100px;display:inline-block"></div>  
+       <!-- <div><img src="assets/images/cat-profile.png" style="width:100px;hieght:100px;display:inline-block"></div>  -->
         <div > <a href="index.php" style="font-size:24px; font-weight:700;">Redicure Life</a> </div>
         
         </div>
@@ -19,10 +19,10 @@
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-phone" aria-hidden="true"></i> </div>
               <p class="uppercase_text">Service Helpline Call Us: </p>
-              <a href="tel:61-1234-5678-09">+91-1234-5678-9</a> </div>
+              <a href="tel:61-1234-5678-09">+91 9090121121</a></div>
 			<div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-map-marker" aria-hidden="true"></i> </div>
-              <p class="uppercase_text">Factory Location </p>Plot No. 401, Kerala GIDC, Bavla -282 220</a> </div>
+              <p class="uppercase_text">Factory Location </p>Greater Kailash , Delhi-92</a> </div>
 	<?php   if(strlen($_SESSION['login'])==0)
 	{	
 	?>
@@ -55,7 +55,7 @@ echo "Welcome To Redicure";
 						</div>
 			</li>
 		  
-          <li><a href="car-listing.php">Certificate</a>
+          <li><a href="#.php">Certificate</a>
           <li class="dropdown">
 					<a href="javascript:void(0)" class="dropbtn">Domestic</a>
 						<div class="dropdown-content">
